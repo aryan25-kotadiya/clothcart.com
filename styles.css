@@ -59,8 +59,22 @@ hr{
 .navigation{
     background-color: var(--primary-color);
     color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nev-brand{
+    font-weight: bold;
+}
+
+.navigation .nav-pills{
+    text-align: right;
 }
 
 .navigation .link{
     color:white;
+}
+
+.navigation .link-active{
+    font-weight: bold;
 }
