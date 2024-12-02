@@ -1,19 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 body{
-    color: red;
+    font-family: 'Montserrat',sans-serif;
 }
 
-h1{
-    color: blue;
+/**cointer**/
+.container{
+    padding-left:1rem;
+    padding-right:1rem;
 }
 
-h2{
-    color:purple;
-}
-
-#lib-header{
-    color:aquamarine;
-}
-
-.para{
-    color:pink;
+.container-center{
+    max-width: 600px;
+    margin: auto;
 }
